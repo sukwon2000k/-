@@ -126,3 +126,6 @@ try:
     print(number+10)
 except ValueError as error:
     print("예외발생:", error)
+
+finally:
+    print('예외여부와 상관없이 무조건 실행')
